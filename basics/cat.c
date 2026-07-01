@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Prototype
 void meow(int times);
 
 

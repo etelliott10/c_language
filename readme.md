@@ -1,6 +1,6 @@
-<!-- Commands -->
+<!-- Command-line Arguments-->
 
-code \_\_filename
+code **filename**
 
 <!-- Compiles a file-->
 
@@ -9,6 +9,13 @@ make **filename**
 <!-- Runs a file-->
 
 ./**filename**
+
+<!-- Compiles a file-->
+<!-- ./a.out -->
+
+clang **filename**
+
+<!-- add -o to create custom filename instead of a.out -->
 
 <!-- Comments -->
 <!-- Creates a new line -->
@@ -69,3 +76,10 @@ rm
 <!-- Remove folder -->
 
 rmdir
+
+Compiling code
+
+1. Pre-processing step
+2. Compiling
+3. Assembling
+4. linking
